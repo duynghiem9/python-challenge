@@ -12,7 +12,8 @@ PyBank to do list:
 -    The greatest decrease in profits (date and amount) over the entire period
 
 pseudo-code:
-	- set variables
+
+	-set variables
 		-month counter
 		-current cell variable
 		-profits/loss
@@ -55,16 +56,18 @@ PyPoll to do list:
 -    The winner of the election based on popular vote
 
 pseudo-code:
-	-set variables (need to have arrays for candidates and votes
-	-loop through sheet
-		-add to vote counter for total
-		-check if something is not in the candidate list
+
+ 	-set variables (need to have arrays for candidates and votes
+ 	-loop through sheet
+ 		-add to vote counter for total
+ 		-check if something is not in the candidate list
 			-add candidate to candidate list
 			-add the vote count on the same index
-		if it is on there
+ 		-if it is on there
 			-get the index using name
 			-add to vote count using index
-	-vote percentage:
+	
+ 	-vote percentage:
 		-make function
 			-parameters (total votes, vote_count_list)
 			-make a new list
@@ -72,15 +75,21 @@ pseudo-code:
 				-calculate percentage
 				-format the percentage
 				-add it to new list
-			return new list
-	-winning candidate:
+			-return new list
+	
+ 	-winning candidate:
 		-maximum of votes in vote_count_list
 		-find index with the maximum
 		-look for candidates using same index
-	-print everything
-		-use loop to do candidates in fstring
-	-export everything
-		-use loop to do candidates in fstring
+	
+ 	-print everything	
+  		-use loop to do candidates in fstring
+ 	-export everything	
+  		-use loop to do candidates in fstring
+
+
+   
+
 Resources:
 https://stackoverflow.com/questions/17513438/csvreader-next-function
 
